@@ -61,7 +61,12 @@ function Experience() {
                     </div>
                     <div className="flex items-center gap-x-8 px-3 py-5">
                       <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                        <img src="/fpt_logo.png" width={100} />
+                        <Image
+                          src="/fpt_logo.png"
+                          width={100}
+                          height={50}
+                          alt="fpt-software"
+                        />
                       </div>
                       <div>
                         <p className="text-base sm:text-xl mb-2 font-medium uppercase">

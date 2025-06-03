@@ -1,52 +1,62 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: 'Accounting Web Application',
+    description:
+      'Developed a modern web application designed to streamline financial data entry and automate transaction recording for small and medium-sized enterprises in Japan.The system helps user easily input financial data and automatically generate journal entries and financial statements in compliance with Japanese accounting standards. ',
+    tools: ['React', 'Typescript', 'Styled component', 'Story book'],
+    role: 'Frontend Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 2,
+    name: 'Medicine Warehouse Management Application',
+    description:
+      'The objective of this project was to develop a new web-based order management system to replace the client’s legacy system, which was originally built using VB6 (Visual Basic 6).The new system aims to modernize business operations across multiple retail store, improving performance, usability and maintainability.',
+    tools: ['Angular', 'Typescript', 'Scss'],
+    role: 'Frontend Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 3,
+    name: 'Financial Web Application',
+    description:
+      'Migrate the “Data entry module” of the company’s internal accounting software from a desktop application to a modern web-based platform. The goal was to improve accessibility, user experience, and maintainability while aligning with the company’s digital transformation initiatives.',
+    tools: ['React', 'Typescript', 'Styled component', 'Story book'],
+    code: '',
+    role: 'Frontend Developer',
+    demo: '',
+  },
+  {
+    id: 4,
+    name: 'Cross Browser Compatibility Migration for Banking Web Application',
+    description:
+      'A large-scale modernization project to enhance compatibility for a banking-related web application consisting of 1200 screens. The migration was carried out based on existing functions and specifications provided by the client, focusing on update Internet Explorer–dependent code to ensure proper functionality on modern browsers like Microsoft Edge and Google Chrome. ',
+    tools: ['JQuery', 'Javascript', 'HTML/CSS'],
+    code: '',
+    demo: '',
+    role: 'Frontend Developer',
+  },
+  {
+    id: 5,
+    name: 'Financial Web Application - Phase 2',
+    description:
+      'This project is continuation of the Financial Web Application previously developed to migrate the accounting system from a desktop application to a modern web platform. The new features were built based on the functional scope defined by the client and designer to integrate seamlessly with the existing modules implemented in the initial phase. ',
+    tools: ['React', 'Typescript', 'Styled component', 'Story book'],
+    code: '',
+    demo: '',
+    role: 'Frontend Developer',
+  },
+  {
+    id: 6,
+    name: 'WinForm to Angular Migration Project',
+    description:
+      'Migrate an internal Windows Client system developed with Winform to a modern web-based application using Angular, aiming to improve usability, maintainability and cross-platform accessibility.',
+    tools: ['Angular', 'Typescript'],
+    code: '',
+    demo: '',
+    role: 'Frontend Developer',
+  },
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
