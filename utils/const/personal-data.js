@@ -10,5 +10,5 @@ export const personalData = {
   github: 'https://github.com/binhnv-dev',
   linkedIn: 'https://www.linkedin.com/in/nguyen-binh-81628323a/',
   resume:
-    'https://drive.google.com/file/d/1JL10kmdvGSFM5XkyF8j7y9MC4bs-aJXR/view?usp=sharing',
+    'https://drive.google.com/file/d/1eEPRLt-yIQhe2hWTw4DTYXUQQ_Jn3ZIO/view?usp=sharing',
 };
